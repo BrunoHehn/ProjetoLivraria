@@ -1,0 +1,384 @@
+/**{
+margin: 0;
+padding: 0;
+
+}*/
+body{
+  background-image: url("imagens/background-branco.jpg");
+}
+
+.menu
+{
+    top: 0;
+    background-color: #0064A6;
+    width: 100%;
+    height: 35px;
+    z-index: 1;
+    overflow: auto;
+    position: fixed;
+}
+
+.lista
+{
+  float: right;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 80px;
+}
+
+.lista2
+{
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial;
+  list-style: none;
+  margin-left: 800px;
+  margin-top: -1.8%;
+}
+
+
+li
+{
+    display: inline;
+    padding-left: 30px;
+}
+
+a{
+  color: white;
+}
+
+.pesquisa
+{
+  width: 100%;
+  height: 200px;
+  background-image: url("imagens/background2.jpg");
+  margin-top: 2.5%;
+}
+
+#logo
+{
+  weight: 100px;
+  height: 100px;
+  margin: 48px;
+}
+
+.logo
+{
+
+  float: left;
+}
+
+.barra
+{
+  width: 450px;
+  height: 50px;
+  background-color: #e6e6e6;
+  float: left;
+  margin-top: 70px;
+  margin-left: 125px;
+  border-style: inset;
+}
+
+.parag
+{
+  margin-left: 10px;
+}
+
+#seta
+{
+  width: 55px;
+  height: 55px;
+  float: right;
+  background-color: #0064A6;
+  margin-right: 49.2%;
+  margin-top: 70px;
+}
+
+#seta2
+{
+  width: 55px;
+  height: 55px;
+  float: right;
+  background-color: #0064A6;
+  margin-right: 32.3%;
+  margin-top: 70px;
+}
+
+.banner
+{
+    background-image: url("imagens/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 450px;
+}
+
+#quemsomos
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 250px;
+}
+
+#contato
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 550px;
+}
+
+#romance
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 1050px;
+}
+
+#aventura
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 1050px;
+}
+
+#terror
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 1050px;
+}
+
+#promoções
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 610px;
+}
+
+#destaque
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 610px;
+}
+
+#carrinho
+{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 350px;
+}
+
+.livro1
+{
+  float: left;
+  background-image: url("imagens/background2.jpg");
+  width: 93%;
+  height: 430px;
+  margin-left: 50px;
+  border-style: inset;
+}
+
+.livro2
+{
+  float: left;
+  background-image: url("imagens/background2.jpg");
+  width: 93%;
+  height: 430px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-style: inset;
+}
+
+.livpro1
+{
+  float: left;
+  background-image: url("imagens/background2.jpg");
+  width: 23%;
+  height: 430px;
+  margin-left: 50px;
+  margin-top: 5px;
+  padding-bottom: 50px;
+  border-style: inset;
+}
+
+.livpro2
+{
+  float: left;
+  background-image: url("imagens/background2.jpg");
+  width: 23%;
+  height: 430px;
+  margin-left: 190px;
+  margin-top: 5px;
+  padding-bottom: 50px;
+  border-style: inset;
+}
+
+.livpro3
+{
+  float: left;
+  background-image: url("imagens/background2.jpg");
+  width: 23%;
+  height: 430px;
+  margin-left: 230px;
+  margin-top: 5px;
+  padding-bottom: 50px;
+  border-style: inset;
+}
+
+.map
+{
+  float: left;
+  background-color: black;
+  width: 93%;
+  height: 430px;
+  margin-left: 50px;
+  border-style: inset;
+}
+
+.img
+{
+  float: left;
+  width: 20%;
+  margin-left: 32px;
+  margin-top: 40px;
+}
+
+.imgpro
+{
+  float: left;
+  width: 80%;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.texto
+{
+  color: black;
+  margin-left: 500px;
+  margin-top: 80px;
+  font-size: 18px;
+}
+
+.negrito
+{
+  font-weight: bold;
+}
+
+.texto2
+{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+
+.textopro
+{
+  color: red;
+  text-decoration: line-through
+}
+
+.textopro2
+{
+  color: black;
+  font-weight: bold;
+}
+
+.preço
+{
+  margin-left: 40%;
+  padding-top: 400px;
+}
+
+.categoria
+{
+
+  margin-left: 43%;
+  padding-top: 35px;
+  color: black;
+}
+
+.lis2
+{
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    list-style: none;
+    padding-top: 10px;
+    color: black;
+}
+
+.li2
+{
+    display: inline;
+    padding-left: 30px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 1000px;
+  margin-left: 180px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #0064A6;
+  color: white;
+}
+
+.cartoes
+{
+  float: left;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+
+.botao
+{
+  float: right;
+  height: 50px;
+  width: 100px;
+  margin-right: 410px;
+}
+
+.titulo
+{
+  font-style: italic;
+}
